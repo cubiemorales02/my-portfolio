@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cubie Magada — BSIT student portfolio showcasing technical skills, projects, certificates, and education.">
+  <title>Cubie Magada | BSIT Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top portfolio-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home" aria-label="Cubie Magada home">CM<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="portfolioNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a
+                class="btn btn-lavender"
+                href="assets/Resume(Cubie M. Morales).pdf"
+                download="Cubie_M_Morales_Resume.pdf"
+              >
+                <i class="bi bi-download me-2"></i>Download My Resume
+              </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero-section dark-section">
+      <div class="hero-lines" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-4 hero-copy">
+            <p class="script-intro">Hello, I'm</p>
+            <h1>Cubie <span>M. Morales</span></h1>
+            <p class="eyebrow">BSIT STUDENT</p>
+            <p class="hero-description">
+              I am willing to learn new things, accept challenges, and gain experience. I am committed to improving my skills and growing as an IT professional.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mt-4">
+              <a
+              class="btn btn-lavender"
+              href="assets/Resume(Cubie M. Morales).pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-file-earmark-pdf me-2"></i>View My Resume
+            </a>
+            </div>
+          </div>
+          <div class="col-lg-4 hero-portrait-wrap">
+            <div class="portrait-frame">
+              <img src="assets/profile.jpg" alt="Portrait of Cubie Magada" class="hero-portrait" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="portrait-placeholder"><i class="bi bi-person-fill"></i><span>Add your photo</span></div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 hero-aside">
+            <p class="hero-mantra">Build<br>Learn<br>Grow<span>.</span></p>
+            <div class="mini-rule"></div>
+            <p>Turning ideas<br>into practical<br>solutions.</p>
+            <div class="social-rail">
+              <a href="https://github.com/cubiemorales02" aria-label="GitHub profile" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/cubie-morales-269652441/" aria-label="LinkedIn profile" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/cubie.magada.morales/" target="_blank" rel="noopener noreferrer" aria-label="Visit my Facebook profile"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-cue"><span>SCROLL TO EXPLORE</span><i class="bi bi-arrow-down"></i></a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-pad light-section" id="about">
+      <div class="container">
+        <div class="about-grid-redesign">
+          
+          <!-- Left Column: Heading, Bio & CTA -->
+          <div class="about-content-left">
+            <div class="about-heading-inline">
+              <h2>About Me</h2>
+              <span class="heading-accent-line"></span>
+            </div>
+            <p class="about-text">
+              Hi, I'm Cubie — a fourth-year BSIT student at Fellowship Baptist College with a strong interest in web development, basic networking, and graphic design using Canva.
+            </p>
+            <p class="about-text">
+              Through my academic projects, I've gained hands-on experience developing web-based systems and managing databases using PHP and MySQL. I'm eager to apply my technical skills during my on-the-job training.
+            </p>
+            <div class="about-cta">
+              <a href="#contact" class="btn btn-outline-about">Get In Touch</a>
+            </div>
+          </div>
+
+       <!-- Right Column: Soft Skills Cards & Quote -->
+<div class="about-content-right">
+
+  <!-- Section Label -->
+  <div class="trait-section-label">
+    <span class="section-label">MY SOFT SKILLS</span>
+    <p>Personal strengths that help me learn and work with others.</p>
+  </div>
+
+  <!-- Soft Skills Cards -->
+  <div class="trait-cards-wrapper">
+
+    <div class="trait-card">
+      <i class="bi bi-people"></i>
+      <span>Teamwork</span>
+    </div>
+
+    <div class="trait-card">
+      <i class="bi bi-chat-dots"></i>
+      <span>Communication</span>
+    </div>
+
+    <div class="trait-card">
+      <i class="bi bi-lightbulb"></i>
+      <span>Willingness<br>to Learn</span>
+    </div>
+
+  </div>
+
+  <!-- Inspirational Quote -->
+  <div class="about-quote-block">
+    <blockquote>
+      “Always be curious, keep learning, and don't be afraid to start over.”
+    </blockquote>
+  </div>
+
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="dark-section section-pad skills-section">
+      <div class="container">
+        <div class="section-heading light-heading">
+          <span class="section-number">02</span>
+          <div>
+            <h2>Skills &amp; Tools</h2>
+            <p>Technologies and tools I'm familiar with</p>
+          </div>
+        </div>
+       
+        <div class="skills-layout">
+          <div class="skills-list">
+
+            <!-- Programming -->
+            <div class="skill-card">
+              <i class="bi bi-code-slash"></i>
+              <strong>Basic Programming</strong>
+              <small>Java, JavaScript, PHP</small>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-card">
+              <i class="bi bi-filetype-html"></i>
+              <strong>Web Design</strong>
+              <small>HTML, CSS, Bootstrap</small>
+            </div>
+
+            <!-- Database Management -->
+            <div class="skill-card">
+              <i class="bi bi-database"></i>
+              <strong>Database Management</strong>
+              <small>MySQL</small>
+            </div>
+
+            <!-- Graphic Design -->
+            <div class="skill-card">
+              <i class="bi bi-palette"></i>
+              <strong>Graphic Design</strong>
+              <small>Canva, Flyers, T-Shirts</small>
+            </div>
+
+            <!-- Computer Skills -->
+            <div class="skill-card">
+              <i class="bi bi-pc-display"></i>
+              <strong>Computer Skills</strong>
+              <small>Basic Troubleshooting &amp; Basic Networking</small>
+            </div>
+
+            <!-- Productivity Tools -->
+            <div class="skill-card">
+              <i class="bi bi-file-earmark-slides"></i>
+              <strong>Productivity Tools</strong>
+              <small>Microsoft Office</small>
+            </div>
+
+            <!-- Presentation Design -->
+            <div class="skill-card">
+              <i class="bi bi-easel"></i>
+              <strong>Presentation Design</strong>
+              <small>Canva Presentations</small>
+            </div>
+
+            <!-- Layout Design -->
+            <div class="skill-card">
+              <i class="bi bi-grid-1x2"></i>
+              <strong>Layout Design</strong>
+              <small>Flyers &amp; T-Shirt Layouts</small>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="light-section section-pad">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-number">03</span>
+          <div>
+            <h2>Featured Projects</h2>
+            <p>Some of the systems and projects I've worked on</p>
+          </div>
+        </div>
+
+        <div class="row g-4 project-row">
+
+          <!-- THESIFY -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <article class="project-card h-100">
+              <img src="assets/Thesify.png"
+                   alt="THESIFY Thesis Management System screenshot"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+              <div class="project-placeholder">
+                <i class="bi bi-mortarboard"></i>
+                THESIFY Project
+              </div>
+
+              <div class="project-body">
+                <h3>THESIFY: An AI-Powered Academic Thesis Management and Panel Evaluation System 
+                  with OCR-Based Panel Annotation Capture</h3>
+
+                  <div class="tag-row">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap 5</span>
+                    <span>Tailwind CSS</span>
+                    <span>Node.js</span>
+                    <span>Netlify Functions</span>
+                    <span>Supabase</span>
+                    <span>Groq API</span>
+                    <span>Google Cloud Vision API / Tesseract OCR</span>
+                    <span>Visual Studio Code</span>
+                    <span>GitHub</span>
+                  </div>
+
+                  <p>
+                    THESIFY is a group capstone project designed to simplify and organize
+                    the academic thesis process, from title hearing to final defense.
+                    The system allows students and faculty to manage thesis documents,
+                    track research progress, schedule defenses, and conduct digital panel
+                    evaluations. It also includes AI-assisted academic writing support
+                    and OCR technology to convert handwritten panel comments into
+                    digital text, making thesis management more efficient and accessible.
+                  </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- AssetEase -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <article class="project-card h-100">
+              <img src="assets/AssetEase.jpg"
+                   alt="AssetEase Room Reservation and Equipment Borrowing System screenshot"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+              <div class="project-placeholder">
+                <i class="bi bi-building"></i>
+                AssetEase Project
+              </div>
+
+              <div class="project-body">
+                <h3>AssetEase – Room Reservation and Equipment Borrowing System</h3>
+
+                <div class="tag-row">
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                  <span>AJAX</span>
+                  <span>PHPMailer</span>
+                  <span>AI / NLP</span>
+                  <span>XAMPP</span>
+                </div>
+
+                <p>
+                  AssetEase is a web-based Room Reservation and Equipment
+                  Borrowing System developed for Fellowship Baptist College.
+                  It allows students, teachers, and staff to reserve rooms
+                  and borrow equipment online. The system provides real-time
+                  availability checking, reservation management, automated
+                  email notifications, and an administrator dashboard to
+                  improve school resource management.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- MyCRM -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <article class="project-card h-100">
+              <img src="assets/MyCRM.jpg"
+                   alt="MyCRM Customer Relationship Management System screenshot"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+              <div class="project-placeholder">
+                <i class="bi bi-people"></i>
+                MyCRM Project
+              </div>
+
+              <div class="project-body">
+                <h3>MyCRM – Customer Relationship Management System</h3>
+
+                <div class="tag-row">
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>XAMPP</span>
+                </div>
+
+                <p>A web-based CRM system for managing contacts and customer information, with features for assigning values, adding notes, and labeling leads and customers.</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="dark-section section-pad certificate-section">
+      <div class="container">
+        <div class="section-heading light-heading">
+          <span class="section-number">04</span>
+          <div><h2>Certificates &amp; Training</h2><p>A collection of my certifications and completed learning</p></div>
+        </div>
+        <div class="certificate-toolbar">
+          <p class="certificate-note"><i class="bi bi-patch-check me-2"></i>Certificates that I earned.</p>
+          <div class="carousel-controls">
+            <button class="circle-btn" id="certPrev" type="button" aria-label="Previous certificates"><i class="bi bi-chevron-left"></i></button>
+            <button class="circle-btn" id="certNext" type="button" aria-label="Next certificates"><i class="bi bi-chevron-right"></i></button>
+          </div>
+        </div>
+        <div class="certificate-track" id="certificateTrack">
+          
+          <article class="certificate-card">
+            <a class="certificate-image" href="assets/certificates/PITCHING.jpg" target="_blank" rel="noopener">
+              <img src="assets/certificates/PITCHING.jpg" alt="DTI ASPIRE Bootcamp Certificate of Completion" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="certificate-placeholder"><i class="bi bi-award"></i>Certificate preview</span>
+            </a>
+            <div>
+              <h3>DTI ASPIRE Bootcamp – THESIFY Pitching</h3>
+              <p>Department of Trade and Industry (DTI), Negros Occidental · September 21, 2026</p>
+              <p class="certificate-description">Participated in a startup pitching event, presenting THESIFY, a thesis management platform concept focused on improving academic research workflows.</p>
+              <span class="status-pill">Completed</span>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <a class="certificate-image" href="assets/certificates/AI-LITERACY.jpg" target="_blank" rel="noopener">
+              <img src="assets/certificates/AI-LITERACY.jpg" alt="Certificate of Completion - Introduction to AI Literacy and Responsible Use" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="certificate-placeholder"><i class="bi bi-award"></i>Certificate preview</span>
+            </a>
+            <div>
+              <h3>Introduction to AI Literacy and Responsible Use</h3>
+              <p>ACHIEVE Micro-Credentials · September 15, 2026</p>
+              <p class="certificate-description">Completed a self-paced micro-credential course focused on AI literacy and the responsible use of artificial intelligence. Completed within 5 hours of study.</p>
+              <span class="status-pill">Completed</span>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <a class="certificate-image" href="assets/certificates/INTRO-CYBERSECURITY.jpg" target="_blank" rel="noopener">
+              <img src="assets/certificates/INTRO-CYBERSECURITY.jpg" alt="Cisco Networking Academy Introduction to Cybersecurity Certificate" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="certificate-placeholder"><i class="bi bi-award"></i>Certificate preview</span>
+            </a>
+            <div>
+              <h3>Introduction to Cybersecurity</h3>
+              <p>Cisco Networking Academy · DICT-ITU DTC Initiative · October 9, 2026</p>
+              <p class="certificate-description">Completed an introductory cybersecurity course through the Cisco Networking Academy program, developing foundational awareness of cybersecurity concepts and digital security.</p>
+              <span class="status-pill">Completed</span>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <a class="certificate-image" href="assets/certificates/AI-DIGITAL-SAFETY.jpg" target="_blank" rel="noopener">
+              <img src="assets/certificates/AI-DIGITAL-SAFETY.jpg" alt="Certificate of Participation - AI and Digital Safety" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="certificate-placeholder"><i class="bi bi-award"></i>Certificate preview</span>
+            </a>
+            <div>
+              <h3>AI and Digital Safety – Scam Ready ASEAN</h3>
+              <p>SmartCT · ASEAN Foundation · September 22, 2026</p>
+              <p class="certificate-description">Participated in an online digital literacy and scam awareness campaign focused on AI threats, online safety, and scam prevention. Completed 2 hours of training.</p>
+              <span class="status-pill">Completed</span>
+            </div>
+          </article>
+
+        </div>
+        <p class="small muted mt-3">Tip: click a certificate preview to open the full image.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="light-section bottom-section">
+      <div class="container">
+        <div class="contact-panel" id="contact">
+
+          <div class="section-heading">
+            <span class="section-number">05</span>
+            <div>
+              <h2>Contact Me</h2>
+              <p>I'm open to OJT opportunities and professional connections.</p>
+            </div>
+          </div>
+
+          <div class="contact-layout">
+            <div class="contact-actions">
+              <a href="mailto:cubiemagada@gmail.com?subject=OJT%20Opportunity"
+                 class="btn btn-dark-purple">
+                <i class="bi bi-envelope-fill me-2"></i>
+                Email Me
+              </a>
+          
+              <a href="tel:+639754817694"
+                 class="btn btn-outline-purple">
+                <i class="bi bi-telephone-fill me-2"></i>
+                Call Me
+              </a>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>© <span id="currentYear"></span> Cubie Magada</span>
+      <span>Designed with purpose · Built to keep learning</span>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
